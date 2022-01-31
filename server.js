@@ -23,8 +23,8 @@ fs.readFile('./www/index.html', 'utf8', (err,data) => {
     // Do not be nice about exiting.
     if(err) {
         console.log(err)
-        process.exit(1)
         return
+        process.exit(1)
     }
     // Define a const `server` as an arrow function using http.createServer. 
     // Use the documentation for the node.js http module. 
